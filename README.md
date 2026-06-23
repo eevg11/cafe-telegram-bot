@@ -34,3 +34,33 @@ coffee_bot/
 ├── bot.py             # Application entry point
 └── requirements.txt   # Project dependencies
 
+## 💻 Installation & Setup
+
+Follow these steps to run the bot locally:
+
+### 1. Clone the repository
+```bash
+git clone [https://github.com/your-username/coffee-telegram-bot.git](https://github.com/your-username/coffee-telegram-bot.git)
+cd coffee-telegram-bot
+
+### 2. Set up a virtual environment
+```bash
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+
+### 4. Configure environment variables
+Create a .env file in the root directory (it is ignored by Git for security) and add your Telegram Bot Token:
+(You can get a token from @BotFather on Telegram)
+
+### 5. Launch the bot
+```bash
+python bot.py
+
+Note: The database (cafe.db) will be automatically created and populated with default menu items on the first launch.
