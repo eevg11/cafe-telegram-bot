@@ -40,7 +40,7 @@ Follow these steps to run the bot locally:
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/your-username/coffee-telegram-bot.git](https://github.com/your-username/coffee-telegram-bot.git)
+git clone [https://github.com/eevg11/cafe-telegram-bot.git](https://github.com/eevg11/cafe-telegram-bot.git)
 cd coffee-telegram-bot
 
 ### 2. Set up a virtual environment
